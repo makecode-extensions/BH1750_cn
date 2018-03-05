@@ -3,6 +3,8 @@ makecode 的 BH1750 数字环境光强传感器 microbit 软件包
 
 作者: shaoziyang  
 日期: 2018.Mar  
+
+![](https://raw.githubusercontent.com/microbit-makecode-packages/BH1750_cn/master/icon.png)  
   
 ![](https://raw.githubusercontent.com/microbit-makecode-packages/BH1750_cn/master/GY-30.jpg)
 
