@@ -22,16 +22,16 @@ https://github.com/microbit-makecode-packages/BH1750_cn
 
 ## API
 
-- **设置地址**(to: BH1750_ADDRESS)  
+- **SetAddress**(addr: BH1750_ADDRESS)  
 to 是 BH1750 的I2C地址，它是 35 或 92  
 
-- **打开**()  
+- **on**()  
 打开 BH1750，开始进行数据转换。
 
-- **关闭**()
+- **off**()
 关闭 BH1750，进入省电模式。
 
-- **获取环境光强度**()  
+- **getIntensity**()  
 获取环境光强度的数据
 
 ## 演示

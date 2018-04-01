@@ -1,6 +1,6 @@
 {
     "name": "BH1750",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "makecode 的 BH1750 环境光强度传感器 micro:bit 软件包",
     "license": "MIT",
     "dependencies": {
