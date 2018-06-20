@@ -56,7 +56,7 @@ namespace BH1750 {
     //% blockId="BH1750_GET_INTENSITY" block="环境光强度 (lx)"
     //% weight=80 blockGap=8
     export function getIntensity(): number {
-        return pins.i2cReadNumber(Address, NumberFormat.UInt16BE) * 5 / 6
+        return Math.idiv(pins.i2cReadNumber(Address, NumberFormat.UInt16BE) * 5, 6)
     }
 
     on();
